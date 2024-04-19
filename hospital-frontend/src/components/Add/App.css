@@ -1,0 +1,5 @@
+.add{
+    background: var(--dark-background-70);
+    border-radius: 8px;
+    cursor: pointer;
+}

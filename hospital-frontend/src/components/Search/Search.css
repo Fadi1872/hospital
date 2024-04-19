@@ -1,0 +1,15 @@
+.search{
+    background-color: var(--dark-background-70);
+    border-radius: 8px;
+}
+
+.search input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.search-icon{
+    color: var(--blue);
+}

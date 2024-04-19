@@ -1,0 +1,27 @@
+.card_back {
+  background: var(--dark-background-70);
+  border-radius: 8px;
+  transition: .4s;
+  position: relative;
+}
+
+.card_back:hover{
+  cursor: pointer;
+  background: #26223c88;
+}
+
+.menu{
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  background: #161229aa;
+  border-radius: 8px;
+  z-index: 100000;
+}
+
+.menu p{
+  transition: .3s;
+}
+.menu p:hover{
+  background: #26223caa;
+}

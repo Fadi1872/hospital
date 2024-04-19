@@ -1,0 +1,62 @@
+.sidebar-container {
+    background: linear-gradient(200deg, var(--dark-background-70), var(--light-background-70));
+    width: 250px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: var(--box-shadow);
+}
+
+.sidebar-container .user_photo {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #fafafa;
+    overflow: hidden;
+    position: relative;
+}
+
+.sidebar-container .user_photo div {
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--blue);
+    opacity: 60%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sidebar-container .user_photo .photo_head {
+    top: 2px;
+    width: 25px;
+}
+
+.sidebar-container .user_photo .photo_body {
+    top: 29px;
+    width: 50px;
+}
+
+.sidebar-container .logout_button{
+    background-color: var(--green);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.sidebar-container .mainNavLink{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.sidebar-container .mainNavLink.active{
+    background-color: var(--blue-70);
+}
+
+.sidebar-container .sub_nav .mainNavLink.active{
+    background-color: var(--green-70);
+}
+
+.color-blue{
+    color: var(--green);
+}

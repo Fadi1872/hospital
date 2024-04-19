@@ -1,0 +1,41 @@
+.pic_container{
+    height: 150px;
+    border-radius: 3px;
+    background: var(--img);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.pics-overlay{
+    position: absolute;
+    inset: 0;
+    background-color: var(--dark-background-70);
+    transition: .5s;
+}
+
+.background_exit{
+    background: var(--dark-background-70);
+    border-radius: 10px;
+}
+
+.background_exit svg{
+    cursor: pointer;
+}
+
+.overlay_pics{
+    position: fixed;
+    inset: 0;
+    background: var(--light-background-70);
+    backdrop-filter: blur(15px);
+    z-index: 10000;
+}
+
+.xoomed_img{
+    cursor: grab !important;
+    min-height: 500px;
+}
+.xoomed_img:active{
+    cursor: grabbing !important;
+}

@@ -1,0 +1,8 @@
+.logIn_form{
+    width: 390px;
+}
+
+.logIn_form .error_text{
+    font-size: .8rem;
+    opacity: 50%;
+}

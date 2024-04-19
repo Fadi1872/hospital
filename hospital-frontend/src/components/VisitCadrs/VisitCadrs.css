@@ -1,0 +1,9 @@
+.mansouri_grid{
+    columns: 2;
+    column-gap: 10px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+    break-inside: avoid;
+}

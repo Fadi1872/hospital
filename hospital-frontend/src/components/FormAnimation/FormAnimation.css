@@ -1,0 +1,6 @@
+.form_animation-contaienr{
+    width: 390px;
+    aspect-ratio: 1;
+    border-radius: 30px;
+    background-color: var(--dark-background-70);
+}

@@ -1,0 +1,7 @@
+.overflow-custom{
+    overflow-y: scroll;
+}
+
+.overflow-custom::-webkit-scrollbar{
+    width: 0px;
+}
